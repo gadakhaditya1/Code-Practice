@@ -3,7 +3,10 @@
 
 int main()
 {
-  int num = 153, sum = 0, temp = num;
+  int num, sum, temp = num;
+  printf("Enter number:");
+  scanf("%d", &num);
+
   while (num > 0)
   {
     int digit = num % 10;
